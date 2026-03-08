@@ -80,7 +80,17 @@ yolov5s.pt yolov5m.pt yolov5l.pt
 
 ![PR Curve](assets/PR_curve.png)
 
+## 結論
 
+在物件偵測任務中，傳統的 accuracy 並不能完整反映模型表現，因此 YOLOv5 主要使用 Precision、Recall 以及 mAP (mean Average Precision) 作為評估指標。
+
+Precision：模型預測為目標的結果中，有多少是正確的
+
+Recall：所有真實目標中，有多少被模型成功偵測
+
+mAP@0.5：在 IoU ≥ 0.5 的情況下計算平均精度，用來衡量整體偵測能力
+
+在我的實驗中，模型在 validation dataset 上達到穩定的 Precision、Recall 與 mAP 表現。
 
 ================================================== License
 
