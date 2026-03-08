@@ -110,6 +110,14 @@ mAP@0.5：在 IoU ≥ 0.5 的情況下計算平均精度，用來衡量整體偵
 
 在我的實驗中，模型在 validation dataset 上達到穩定的 Precision、Recall 與 mAP 表現。
 
+DEMO
+
+[DEMO1](https://youtu.be/Zv7sV6Ywaho)
+
+[DEMO2](https://youtu.be/3MjpjRlGc1Y)
+
+[DEMO3](https://youtu.be/er2pSG7P0Fw)
+
 ================================================== License
 
 此專案僅供學習與研究用途
