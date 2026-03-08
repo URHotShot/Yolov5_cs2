@@ -14,19 +14,6 @@ YOLOv5 即時螢幕目標偵測與滑鼠控制
 -   使用滑鼠側鍵 (X1) 開啟 / 關閉功能
 -   畫面即時顯示偵測框與距離資訊
 
-================================================== 系統需求
-==================================================
-
-Python 3.10+ PyTorch OpenCV NumPy pynput YOLOv5 相關依賴套件
-
-若使用 AMD GPU 可透過 DirectML 加速：
-
-pip install torch-directml
-
-安裝專案依賴：
-
-pip install -r requirements.txt
-
 ================================================== 專案結構
 ==================================================
 
@@ -44,29 +31,6 @@ detect.py 主要偵測程式 train.py 模型訓練 val.py 模型驗證 export.py
 Screenshot.py 螢幕截圖模組 SendInput.py 滑鼠控制 topwindow.py 視窗控制
 
 requirements.txt
-
-================================================== 使用方式
-==================================================
-
-1.  下載專案
-
-git clone https://github.com/你的帳號/你的repo.git cd yolov5final
-
-2.  建立虛擬環境
-
-python -m venv .venv
-
-Windows 啟動：
-
-.venv
-
-3.  安裝套件
-
-python -m pip install -r requirements.txt
-
-4.  執行程式
-
-python detect.py
 
 ================================================== 操作方式
 ==================================================
