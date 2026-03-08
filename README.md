@@ -22,29 +22,29 @@ YOLOv5 即時螢幕目標偵測與滑鼠控制
 ```
 yolov5-aim-detection/
 │
-├─ assets/                     # 訓練與評估結果圖片
-│   ├─ train_batch0.jpg        # 訓練資料與標註示例
-│   ├─ val_batch0_pred.jpg     # 模型預測結果示例
-│   ├─ results.png             # 訓練過程指標變化
-│   ├─ PR_curve.png            # Precision-Recall 曲線
-│   ├─ confusion_matrix.png    # 混淆矩陣
+├─ assets/ # 訓練與評估結果圖片
+│ ├─ train_batch0.jpg # 訓練資料與標註示例
+│ ├─ val_batch0_pred.jpg # 模型預測結果示例
+│ ├─ results.png # 訓練過程指標變化
+│ ├─ PR_curve.png # Precision-Recall 曲線
+│ └─ confusion_matrix.png # 混淆矩陣
 │
-├─ weights/                    # YOLO 模型權重
-│   └─ yolov5n.pt
+├─ weights/ # YOLO 模型權重
+│ └─ yolov5n.pt
 │
-├─ models/                     # YOLOv5 模型架構
-├─ utils/                      # YOLOv5 工具函式
-├─ data/                       # 資料集設定
+├─ models/ # YOLOv5 模型架構
+├─ utils/ # YOLOv5 工具函式
+├─ data/ # 資料集設定
 │
-├─ Screenshot.py               # 螢幕截圖模組
-├─ SendInput.py                # 滑鼠控制模組
-├─ detect.py                   # 即時偵測與自動瞄準主程式
+├─ Screenshot.py # 螢幕截圖模組
+├─ SendInput.py # 滑鼠控制模組
+├─ detect.py # 即時偵測與自動瞄準主程式
 │
-├─ train.py                    # 模型訓練
-├─ val.py                      # 模型驗證
-├─ export.py                   # 模型轉換
+├─ train.py # 模型訓練
+├─ val.py # 模型驗證
+├─ export.py # 模型轉換
 │
-├─ requirements.txt            # Python 套件依賴
+├─ requirements.txt # Python 套件依賴
 ├─ .gitignore
 └─ README.md
 ```
