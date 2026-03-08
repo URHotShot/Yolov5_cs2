@@ -750,15 +750,10 @@ class DetectMultiBackend(nn.Module):
 
     @staticmethod
     def _model_type(p="path/to/model.pt"):
-        """
-        Determines model type from file path or URL, supporting various export formats.
 
-        Example: path='path/to/model.onnx' -> type=onnx
-        """
         # types = [pt, jit, onnx, xml, engine, coreml, saved_model, pb, tflite, edgetpu, tfjs, paddle]
         from export import export_formats
         from utils.downloads import is_url
-
         sf = list(export_formats().Suffix)  # export suffixes
         if not is_url(p, check=False):
             check_suffix(p, sf)  # checks

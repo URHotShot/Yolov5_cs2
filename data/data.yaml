@@ -1,0 +1,13 @@
+train: W:\ntou\pro\code\yolov5\cs2_head\train\images
+val: W:\ntou\pro\code\yolov5\cs2_head\valid\images
+test: W:\ntou\pro\code\yolov5\cs2_head\test\images
+
+nc: 2
+names: ['CT', 'T']
+
+roboflow:
+  workspace: srzhka
+  project: cs2-head
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/srzhka/cs2-head/dataset/1

@@ -1,0 +1,6 @@
+train: head_datas\images\train
+val: head_datas\images\train
+
+
+nc: 1
+names: ['Head']
