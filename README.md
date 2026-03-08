@@ -62,6 +62,23 @@ yolov5s.pt yolov5m.pt yolov5l.pt
 ================================================== 一些訓練測試結果
 ==================================================
 
+## Dataset Example
+
+下圖為訓練資料集中的影像與標註框示例：
+
+![Dataset Example](assets/train_batch0.jpg)
+
+## Training Results
+
+模型訓練過程中的 loss 與評估指標變化：
+
+![Training Results](assets/results.png)
+
+## Precision-Recall Curve
+
+模型在不同 confidence threshold 下的 Precision-Recall 表現：
+
+![PR Curve](assets/PR_curve.png)
 
 
 
