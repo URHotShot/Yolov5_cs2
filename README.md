@@ -17,20 +17,26 @@ YOLOv5 即時螢幕目標偵測與滑鼠控制
 ================================================== 專案結構
 ==================================================
 
-yolov5final/
+yolov5final/--
 
-classify/ YOLOv5 分類程式 cs2_head/ 訓練資料 data/ 資料集設定 models/
-YOLOv5 模型架構 runs/ 推論或訓練結果 segment/ segmentation相關程式
-utils/ YOLOv5工具函式
+--classify/ YOLOv5 分類程式 
+--cs2_head/ 訓練資料 
+--data/ 資料集設定 
+--models/YOLOv5 模型架構 
+--runs/ 推論或訓練結果 
+--segment/ segmentation相關程式
+--utils/ YOLOv5工具函式
+--weights/ yolov5n.pt
 
-weights/ yolov5n.pt
+--detect.py 主要偵測程式
+--train.py 模型訓練 
+--val.py 模型驗證 
+--export.py 模型轉換
 
-detect.py 主要偵測程式 train.py 模型訓練 val.py 模型驗證 export.py
-模型轉換
+--Screenshot.py 螢幕截圖模組 
+--SendInput.py 滑鼠控制 topwindow.py 視窗控制
 
-Screenshot.py 螢幕截圖模組 SendInput.py 滑鼠控制 topwindow.py 視窗控制
-
-requirements.txt
+--requirements.txt
 
 ================================================== 操作方式
 ==================================================
